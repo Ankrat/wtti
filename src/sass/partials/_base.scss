@@ -23,7 +23,6 @@ $max-width                 : 1024px !default;
 
 $default-spacing           : 15px !default;
 
-
 @mixin clearfix() {
   &:before,
   &:after {
