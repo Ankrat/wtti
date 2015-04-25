@@ -1,0 +1,53 @@
+body {
+  color: $font-color;
+  font-size: 16px;
+  background: $grey;
+}
+
+h1, h2, h3, h4{
+}
+
+select,
+input,
+textarea {
+  color: $font-color;
+  font-size: 16px;
+}
+
+ul, li, ol{
+  margin: 0;
+  padding: 0
+}
+.wrapper{
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+.main-header,
+.main-content,
+.main-footer {}
+
+.main-header{ background: $dark; padding-top: $default-spacing; }
+.main-content{ background: lighten($grey, 10%); }
+.main-footer{ background: $light; }
+
+.wrapper-header,
+.wrapper-content,
+.wrapper-footer{
+  @include clearfix;
+}
+
+.content{
+  min-height: 600px;
+}
+
+.content-left {
+  width: 70%;
+  float: left;
+  background: #cdcdcd;
+}
+.content-right {
+  width: 30%;
+  float: left;
+  background: #bbbbbb;
+}

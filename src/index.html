@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Alpha</title>
+
+  @@include('inc/meta.htm')
+</head>
+<body>
+
+
+  <header class="main-header">
+    <div class="wrapper wrapper-header">
+      <img src="http://placehold.it/150x95" alt="brand logo"/>
+      @@include('inc/nav.htm')
+      <h1>PAGE TITLE</h1>
+    </div>
+  </header>
+
+  <main class="main-content" id="main-content">
+    <div class="wrapper wrapper-content">
+
+      <section class="content content-left">
+        <header><h2>Main section</h2></header>
+      </section>
+
+
+      <aside class="content content-right">
+        <header><h2>Aside</h2></header>
+        @@include('inc/module.htm')
+      </aside>
+
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="wrapper wrapper-footer">
+      <p>Footer</p>
+    </div>
+  </footer>
+
+
+  @@include('inc/scripts-bottom.htm')
+</body>
+</html>

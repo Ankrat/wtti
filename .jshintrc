@@ -1,0 +1,41 @@
+{
+    "curly"   : true,
+    "eqeqeq"  : true,
+    "immed"   : true,
+    "latedef" : true,
+    "noarg"   : true,
+    "sub"     : true,
+    "undef"   : true,
+    "boss"    : true,
+    "eqnull"  : true,
+    "browser" : true,
+    "multistr": true,
+    "newcap"  : false,
+
+    "globals" : {
+
+        "AMD"         : "AMD",
+        "module"      : true,
+        "require"     : true,
+        "requirejs"   : true,
+        "define"      : true,
+
+        "Env"         : "Environments",
+        "console"     : true,
+
+        "Libs"        : "General Purpose Libraries",
+        "$"           : true,
+        "jQuery"      : true,
+        "EventEmitter": true,
+
+        "Test"        : "Testing",
+        "sinon"       : true,
+        "describe"    : true,
+        "it"          : true,
+        "expect"      : true,
+        "beforeEach"  : true,
+        "waitsFor"    : true,
+        "runs"        : true,
+        "afterEach"   : true
+    }
+}

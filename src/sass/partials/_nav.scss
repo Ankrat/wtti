@@ -1,0 +1,17 @@
+.main-navigation{
+  float: right;
+  ul{
+    @include clearfix;
+    list-style: none;
+  }
+  li{
+    float: left;
+  }
+  a{
+    display: block;
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    text-decoration: none;
+    color: $white;
+  }
+}
