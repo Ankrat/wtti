@@ -12,9 +12,9 @@
     │   └── styles
     └── src
         ├── inc
-        │   ├── payement
-        │   ├── checkout
-        │   └── confirm
+        │   ├── 
+        │   ├── 
+        │   └── 
         ├── sass
         │   ├── modules
         │   └── partials
@@ -54,7 +54,7 @@
 
 ## Usage 
 
-Run
+Run ( from your project folder )
 
 ```
 $ gulp
